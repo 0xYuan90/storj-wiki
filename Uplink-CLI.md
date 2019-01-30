@@ -1,6 +1,6 @@
 # Uplink CLI 教程
 
-Uplink CLI是我们连接Storj网络的客户端程序, 学习本教程前请先按照 [test network](Test-network) 配置好网络。
+Uplink CLI是我们连接Storj网络的客户端程序, 学习本教程前请先按照 [test network](Test-network.md) 配置好网络。
 
 ## 安装和配置
 
@@ -14,7 +14,7 @@ go get -u storj.io/storj/cmd/uplink
 上述命令会安装uplink的可执行程序到你配置的GOPATH目录下, 默认为 `~/go/bin`.
 
 为你的Satellite配置Uplink之前你需要首先纪录下你的Satellite的地址和账户API Key。
-[S3 gateway](S3-Gateway) 和Uplink可以共享同一份配置文件, 所以如果你已经配置好了S3网关这一步就可以跳过了。
+[S3 gateway](S3-Gateway.md) 和Uplink可以共享同一份配置文件, 所以如果你已经配置好了S3网关这一步就可以跳过了。
 
 接下来你需要选择一个密码, 请妥善保管好你的密码。你的密码在你访问你所有文件时会被用到, 如果你丢失了你的密码就无法恢复你的文件了。
 
@@ -85,6 +85,6 @@ uplink mount sj://bucket-name/ ~/bucket-name/
 
 到这里你已经掌握了如何通过Uplink操作Storj网络。
 
-我们还有一篇介绍和Amazon S3集成的教程 [S3 integration](S3-Gateway) 欢迎阅读. 有任何问题可以通过Issue告诉我们。
+我们还有一篇介绍和Amazon S3集成的教程 [S3 Gateway](S3-Gateway.md) 欢迎阅读. 有任何问题可以通过Issue告诉我们。
 
 去中心化这个世界吧,少年!
