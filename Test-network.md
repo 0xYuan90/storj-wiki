@@ -78,7 +78,7 @@ storj-sim network run
 ***
 
 ## 下一章节
-请查看 [Uplink CLI](Uplink-CLI) 或 [S3 Gateway](S3-Gateway)
+请查看 [Uplink CLI](Uplink-CLI.md) 或 [S3 Gateway](S3-Gateway.md)
 学习如何在Storj的测试网络中上传/下载数据。
 
 让我们通过去中心化把所有事物链接在一起!
