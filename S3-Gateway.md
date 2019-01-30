@@ -1,6 +1,6 @@
 # S3 网关教程
 
-S3网关是我们提供的适配Amazon S3的客户端, 学习本教程前请先按照 [test network](Test-network) 配置好网络。
+S3网关是我们提供的适配Amazon S3的客户端, 学习本教程前请先按照 [test network](Test-network.md) 配置好网络。
 
 
 ## 安装和配置
@@ -15,7 +15,7 @@ go get -u storj.io/storj/cmd/gateway
 上述命令会安装gateway的可执行程序到你配置的GOPATH目录下, 默认为 `~/go/bin`.
 
 为你的Satellite配置Gateway之前你需要首先纪录下你的Satellite的地址和账户API Key。
-[Uplink CLI](Uplink-CLI) 和Gateway可以共享同一份配置文件, 所以如果你已经配置好了Uplink这一步就可以跳过了。
+[Uplink CLI](Uplink-CLI.md) 和Gateway可以共享同一份配置文件, 所以如果你已经配置好了Uplink这一步就可以跳过了。
 
 接下来你需要选择一个密码, 请妥善保管好你的密码。你的密码在你访问你所有文件时会被用到, 如果你丢失了你的密码就无法恢复你的文件了。
 
@@ -98,6 +98,6 @@ aws s3 --endpoint=http://localhost:7777/ rm s3://bucket-name/your-large-file.mp4
 
 恭喜你已经学会了如何操作Amazon S3的适配网关, 整合S3网关的Storj使用起来非常方便。
 
-我们还有一篇Uplink的使用教程 [Uplink](Uplink-CLI) 欢迎阅读. 有任何问题可以通过Issue告诉我们。
+我们还有一篇Uplink的使用教程 [Uplink](Uplink-CLI.md) 欢迎阅读. 有任何问题可以通过Issue告诉我们。
 
 去中心化这个世界吧,少年!
