@@ -1,14 +1,14 @@
 # 如何使用Storj网路
 
-> Storj第三代网络的使用教程
+> Storj V3网络的使用教程
 
 ![logo](assets/logo.png)
 
 使用教程分为三个章节:
 
-- [如何通过storj-sim运行storj网络](Test-network)
-- [Use the Storj Uplink CLI tool to manipulate files](Uplink-CLI)
-- [Use the Gateway to mimic AWS s3 filestores](S3-Gateway)
+- [如何通过storj-sim运行storj网络](./Test-network.md)
+- [如何通过storj uplink操作文件](./Uplink-CLI.md)
+- [如何通过S3网关适配Amazon S3服务](./S3-Gateway.md)
 
 让我们开启有意义的旅程!
 
